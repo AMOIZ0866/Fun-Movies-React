@@ -1,2 +1,1 @@
-# Fun-Movies-React 
-#
+ShopAmaze
