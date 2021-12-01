@@ -1,0 +1,41 @@
+
+
+
+.image-box {
+    position: relative;
+  }
+  
+  
+  .image-box__background,
+  .image-box__overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+ 
+  .image-box__overlay {
+    background: rgba(0, 0, 0, 0.8);
+  
+    z-index: 2;
+  }
+  .image-box__content {
+    position: relative;
+    z-index: 3;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .image-background{
+    background-image:url("./background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: auto;
+    height: 100%;
+  }
+
+
+

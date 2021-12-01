@@ -1,0 +1,114 @@
+
+
+.image-box {
+    position: relative;
+  }
+  
+  
+  .image-box__background,
+  .image-box__overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .image-box__background {
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center; 
+    background: url("../assets/background.jpg");
+  
+    z-index: 1
+  }
+  .image-box__overlay {
+    background: rgba(0, 0, 0, 0.8);
+
+    z-index: 2;
+  }
+  
+  .image-box__content {
+    position: relative;
+    z-index: 3;
+    color: white;
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+     
+
+
+
+
+  .image-background  .form-group {
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .image-background .loginform input {
+   background:white;
+   height: 50px;
+   /* width: 400px; */
+  }
+
+  .image-background .loginform{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .image-background .loginform  button[type=submit] {
+    background:whitesmoke;
+    border: 0;
+    padding: 10px 35px;
+    color:black;
+  }
+  .loginsection .loginform button:hover {
+    background: blue;
+    color: black;
+  }
+
+  .image-background .loginform .form-group input {
+    background:white;
+    height: 50px;
+    margin: 10px;
+    width: 300px;
+
+    /* width: 400px; */
+    
+    /* width: 400px; */
+   }
+.image-background .loginform p{
+  color:rgb(139, 136, 136)ck;
+  font-size: 16px;
+}
+
+.image-background .loginform a{
+  color:purple;
+  font-size: 16px;
+}
+
+
+.image-background .loginform a:hover{
+  color:white;
+  font-size: 16px;
+}
+
+.image-background .loginform input:focus,
+textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 5px solid #05487a;
+    outline-width: 0
+}
+
+
+.image-background .loginform button:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0
+}

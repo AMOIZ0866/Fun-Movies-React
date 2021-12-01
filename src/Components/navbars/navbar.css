@@ -1,0 +1,113 @@
+
+  
+  /* NAVIGATION BAR */
+  #header_class {    
+    /* height: 20px; */
+     padding: 0px 0;
+     /* top: 30px; */
+   }
+   #header_class .header_lg {
+     padding-left: 0px; 
+     font-size: 30px;
+   }
+   #header_class .header_lg p {
+     color: #c4c4c4;
+   }
+   #header_class .header_lg p:hover {
+     color: black;
+   }
+   
+   /* Button */
+   .app-btn {
+     margin-left: 25px;
+    
+     /* background: #4b7dab; */
+     color: #fff;
+     /* padding: 15px 25px; */
+     font-size: 14px;
+   }
+   .app-btn:hover {
+     /* background: #4b7dab; */
+     color: #fff;
+   }
+   
+   /* Changes in the navbar of bootstrap */
+   .navbar {
+     padding: 0;
+   }
+   .navbar ul {
+     margin: 0;
+     display: flex;
+     list-style: none;
+     /* padding: 8px 0 8px 20px; */
+     align-items: center;
+   }
+   .navbar li {
+     padding: 0px 0px 0px 20px;
+     position: relative;
+   }
+   
+   .navbar p, .navbar p:focus {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     font-size: 14px;
+     color: white;
+     transition: 0.3s;
+     border-bottom: 2px solid #fff;
+     padding: 5px 2px;
+   }
+   .navbar p i, .navbar p:focus i {
+     font-size: 12px;
+     line-height: 0;
+     margin-left: 5px;
+   }
+   .navbar p:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > p {
+     color:#B91646;
+     border-color: #B91646;
+   }
+   /* DropDown of nav bar */
+   .navbar .dropdown ul {
+     display: block;
+     position: absolute;
+     left: 20px;
+     margin: 0;
+     padding: 10px 0;
+     visibility: hidden;
+     background: #fff;
+   }
+   .navbar .dropdown ul li {
+     min-width: 200px;
+   }
+   .navbar .dropdown ul p {
+     padding: 10px 20px;
+     font-size: 14px;
+   }
+   .navbar .dropdown ul p i {
+     font-size: 12px;
+   }
+   
+   .navbar .dropdown ul p:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > p {
+     color: #4b7dab;
+   }
+   .navbar .dropdown:hover > ul {
+     opacity: 1;
+     top: 100%;
+     visibility: visible;
+   }
+   .navbar .dropdown .dropdown ul {
+     top: 0;
+     visibility: hidden;
+   }
+   .navbar .dropdown .dropdown:hover > ul {
+     opacity: 1;
+     top: 0;
+     left: 100%;
+     visibility: visible;
+   }
+
+   #navcolor{
+     color: #B91646;
+     padding-bottom: 20px;
+   }
+   
